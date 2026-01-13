@@ -3,6 +3,8 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from skimage.filters import median
 from skimage.morphology import ball
+
+# Import the functions we created in the other file
 from image_utils import load_image, edge_detection
 
 def main():
@@ -54,5 +56,5 @@ def main():
     plt.axis('off')
     plt.show()
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
