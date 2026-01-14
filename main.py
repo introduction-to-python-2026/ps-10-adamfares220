@@ -15,7 +15,7 @@ def main():
     except FileNotFoundError:
         print(f"Error: Could not find '{image_path}'. Please add an image file.")
         return
-
+  
     print("Image loaded successfully.")
 
     # 2. Suppress noise using a median filter
